@@ -6,15 +6,15 @@
   border: 1px solid black;
   height: 300px;
 }
-
+/* debug colonne in container nested */
 .debug .container.nested {
   background-color: coral;
-  margin: 3px;
+  margin: 4px;
 }
 
 .debug .container.nested [class*="col-"] {
   border: 1px solid white;
-  height: 300px;
+  height: 290px;
 }
 
 /* FINE DEBUG */
