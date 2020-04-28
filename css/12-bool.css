@@ -2,9 +2,18 @@
 .debug .container {
   background-color: pink;
 }
-
 .debug [class*="col-"] {
   border: 1px solid black;
+  height: 300px;
+}
+
+.debug .container.nested {
+  background-color: coral;
+  margin: 3px;
+}
+
+.debug .container.nested [class*="col-"] {
+  border: 1px solid white;
   height: 300px;
 }
 
